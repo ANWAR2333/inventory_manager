@@ -4,11 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-use App\Traits\BelongsToUser;
-
 class Order_item extends Model
 {
-    use BelongsToUser;
     
     protected $table = 'order_items';
     protected $fillable = [
